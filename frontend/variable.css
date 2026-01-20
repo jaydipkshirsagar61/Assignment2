@@ -1,0 +1,51 @@
+:root{
+    --main-content-width:1481px;
+    --body-width:100%;
+    --padding-top:140px;
+    --padding-right:220px;
+    --padding-bottom:140px;
+    --padding-left:220px;
+}
+
+@media (max-width: 1919px) and (min-width: 1440px) {
+    :root{
+        --main-content-width:1376px;
+        --padding-top:140px;
+        --padding-right:32px;
+        --padding-bottom:140px;
+        --padding-left:32px;
+        --body-width:100%;
+    }
+}
+
+
+@media (max-width: 1439px) and (min-width: 1152px) {
+    :root{
+        --main-content-width:1088px;
+        --padding-top:140px;
+        --padding-right:32px;
+        --padding-bottom:140px;
+        --padding-left:32px;
+    }
+}
+
+@media (max-width: 1151px) and (min-width: 768px) {
+    :root{
+        --main-content-width:728px;
+        --padding-top:140px;
+        --padding-right:20px;
+        --padding-bottom:140px;
+        --padding-left:20px;
+    }
+}
+
+
+@media (max-width: 767px) {
+    :root{
+        --main-content-width:320px;
+        --padding-top:80px;
+        --padding-right:16px;
+        --padding-bottom:80px;
+        --padding-left:16px;
+    }
+}
