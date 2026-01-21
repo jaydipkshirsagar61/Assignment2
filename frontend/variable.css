@@ -5,6 +5,18 @@
     --padding-right:220px;
     --padding-bottom:140px;
     --padding-left:220px;
+    --bg-body: #f4f6f8;
+    --bg-card: #ffffff;
+    --primary-color: #007bff;
+    --primary-hover: #0056b3;
+    --text-primary: #000000;
+    --text-secondary: #555555;
+    --text-link: #007bff;
+    --text-danger: #ff0000;
+    --text-white: #ffffff;
+    --border-light: #dcdcdc;
+    --border-dark: #000000;
+    --shadow-card: 0 4px 12px rgba(0,0,0,0.08);
 }
 
 @media (max-width: 1919px) and (min-width: 1440px) {

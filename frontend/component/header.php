@@ -1,4 +1,4 @@
-<header class="header">
+<header class="header  flex flex-row">
     <h1 class="logo">Image-Finder</h1>
     <button class="logoutbutton">
         Logout

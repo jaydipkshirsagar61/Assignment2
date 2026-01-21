@@ -1,23 +1,142 @@
-body{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
+@import "variable.css";
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x:hidden;
+    width:var(--body-width);
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    min-height:100vh;
+    background: var(--bg-body);
 }
 .flex{
     width:100%;
     display:flex;
     align-items: center;
-    justify-content: space-between;
 }
 .flex-row{
     flex-direction: row;
+    justify-content: space-between;
 }
 .flex-col{
     flex-direction: column;
+    justify-content: space-between;
 }
 .left{
     width:45%;
 }
 .height{
     width:45%;
+}
+.center{
+    justify-content:center;
+    align-items:center;
+}
+.auth-wrapper {
+    min-height: 100vh;
+}
+#auth-container{
+    max-width:420px;
+    background: var(--bg-card);
+    padding: 32px;
+    border-radius: 8px;
+    box-shadow: var(--shadow-card);
+}
+#login,#register,#resetpass{
+    gap:14px;
+}
+#resetpass,#register{
+    display: none;
+}
+h3{
+    text-align:center;
+    color: var(--text-primary);
+}
+input{
+    width:100%;
+    padding: 12px;
+    border: 1px solid var(--border-light);
+    border-radius: 4px;
+    font-size: 14px;
+}
+button{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid var(--border-dark);
+    background: var(--primary-color);
+    color: var(--text-white);
+    font-size: 15px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: var(--primary-hover);
+}
+.option{
+    flex-direction: row;
+    text-align: center;
+}
+.option p,#showLogin,#backToLogin {
+    font-size: 20px;
+    color: var(--text-link);
+    cursor: pointer;
+}
+.option p:hover,#showLogin:hover,#backToLogin:hover {
+    text-decoration: underline;
+}
+.app-wrapper{
+    width:100%;
+}
+
+.header {
+    width: var(--body-width);
+    max-width: var(--main-content-width);
+    margin: 0 auto;
+    background: var(--bg-card);
+}
+.logo {
+    font-size: 24px;
+    color: var(--text-primary);
+}
+.logoutbutton {
+    width: auto;
+    padding: 8px 16px;
+}
+#search,#history {
+    width: 100%;
+    max-width: var(--main-content-width);
+    margin: 0 auto;
+    padding: var(--padding-top) var(--padding-right);
+    gap: 16px;
+    background: var(--bg-card);
+}
+#searchform {
+    width:100%;
+    max-width:500px;
+    gap: 10px;
+}
+#searchresults {
+    gap: 12px;
+    flex-wrap: wrap;
+}
+.historyitem {
+    width:100%;
+    max-width:400px;
+    padding: 8px 12px;
+    border: 1px solid var(--border-light);
+    border-radius: 4px;
+}
+.name {
+    font-size: 16px;
+    color: var(--text-primary);
+}
+.deletespecific {
+    color: var(--text-danger);
+    cursor: pointer;
+}
+#showHistory,#deleteentire{
+    width:100%;
+    max-width:500px;
 }

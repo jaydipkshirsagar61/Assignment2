@@ -1,7 +1,7 @@
-<section id="search">
+<section id="search" class="flex flex-col">
     <h2 id="searchheader">Search Images by Hashtag</h2>
 
-    <form id="searchform">
+    <form id="searchform"  class="flex flex-col">
         <label for="hashtag" class="lhashtag">Enter Hashtag</label>
         <input type="text" id="hashtag" name="hashtag" placeholder="#nature" required>
         <button type="submit">Search</button>
@@ -9,5 +9,5 @@
 
     <div id="searchstatus"></div>
 
-    <div id="searchresults"></div>
+    <div id="searchresults"  class="flex"></div>
 </section>
