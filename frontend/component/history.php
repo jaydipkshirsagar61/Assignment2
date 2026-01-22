@@ -1,4 +1,4 @@
-<section id="history" class="flex flex-col">
+<section id="history" class="flex flex-col centre">
     <h2 id="historyheader">Search History</h2>
 
     <button id="showHistory">Show History</button>

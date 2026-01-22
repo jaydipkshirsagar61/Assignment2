@@ -18,7 +18,7 @@
     <button id="registerbutton" class="flex flex-col">Register</button>
 
     <p id="showLogin">
-        Already have an account?
+        have an account?
     </p>
 </div>
 

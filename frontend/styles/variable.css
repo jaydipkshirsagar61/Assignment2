@@ -5,7 +5,7 @@
     --padding-right:220px;
     --padding-bottom:140px;
     --padding-left:220px;
-    --bg-body: #f4f6f8;
+    --bg-body: #ffffff;
     --bg-card: #ffffff;
     --primary-color: #007bff;
     --primary-hover: #0056b3;
@@ -21,7 +21,7 @@
 
 @media (max-width: 1919px) and (min-width: 1440px) {
     :root{
-        --main-content-width:1376px;
+        --main-content-width:100%;
         --padding-top:140px;
         --padding-right:32px;
         --padding-bottom:140px;
@@ -33,7 +33,7 @@
 
 @media (max-width: 1439px) and (min-width: 1152px) {
     :root{
-        --main-content-width:1088px;
+        --main-content-width:100%;
         --padding-top:140px;
         --padding-right:32px;
         --padding-bottom:140px;
@@ -43,7 +43,7 @@
 
 @media (max-width: 1151px) and (min-width: 768px) {
     :root{
-        --main-content-width:728px;
+        --main-content-width:100%;
         --padding-top:140px;
         --padding-right:20px;
         --padding-bottom:140px;
@@ -54,7 +54,7 @@
 
 @media (max-width: 767px) {
     :root{
-        --main-content-width:320px;
+        --main-content-width:100%;
         --padding-top:80px;
         --padding-right:16px;
         --padding-bottom:80px;

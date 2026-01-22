@@ -4,17 +4,15 @@ body {
     padding: 0;
     box-sizing: border-box;
     overflow-x:hidden;
-    width:var(--body-width);
-    display:flex;
-    align-items: center;
-    justify-content: center;
+    width:100%;
     min-height:100vh;
     background: var(--bg-body);
 }
 .flex{
     width:100%;
     display:flex;
-    align-items: center;
+    justify-content:center;
+    align-items:center;
 }
 .flex-row{
     flex-direction: row;
@@ -24,16 +22,7 @@ body {
     flex-direction: column;
     justify-content: space-between;
 }
-.left{
-    width:45%;
-}
-.height{
-    width:45%;
-}
-.center{
-    justify-content:center;
-    align-items:center;
-}
+
 .auth-wrapper {
     min-height: 100vh;
 }
@@ -88,12 +77,14 @@ button:hover {
 }
 .app-wrapper{
     width:100%;
+    margin:0;
+    padding:0;
 }
 
 .header {
-    width: var(--body-width);
-    max-width: var(--main-content-width);
-    margin: 0 auto;
+    width:100%;
+    padding:20px 80px;
+    box-sizing: border-box;
     background: var(--bg-card);
 }
 .logo {
@@ -102,13 +93,11 @@ button:hover {
 }
 .logoutbutton {
     width: auto;
-    padding: 8px 16px;
+    height:40px;
+    padding: 0px 16px;
 }
 #search,#history {
     width: 100%;
-    max-width: var(--main-content-width);
-    margin: 0 auto;
-    padding: var(--padding-top) var(--padding-right);
     gap: 16px;
     background: var(--bg-card);
 }
